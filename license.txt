@@ -1,0 +1,14 @@
+Lorsque vous voullez modifier le fichier généré sur une IDE comme eclipse,
+veuiller à ce que le nom de package soit "Dessin", ou bien vous modifiez le nom du package indiqué dans le fichier
+généré, car c'est avec nom que nous avons travaillez tout le long de la mise en oeuvre de l'application.
+
+S'il vous-plaît, veuillez importer les bibiothèques "mysql-connector-java-5.1.37-bin.jar",
+ "quaqua.jar" et "jcalendar.jar" qui est situé dans le dossier "lib", dans votre IDE pour pouvoir executer les 
+fichiers java générés.
+
+les classes "connexion3" "recherche" et "compasant" sont les classes qui seront utilisées dans tous
+les dossiers contenant les classes générées; peut importe le nom, donc à la modification du fichier généré, 
+veuillez à ce que ces classes soient dans le même package que les fichiers générés.
+
+
+(c) Copyright 3GI

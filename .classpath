@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="lib" path="C:/Users/Le genie/workspace/générateur d&apos;interface/lib/mysql-connector-java-5.1.37-bin.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Le genie/workspace/générateur d&apos;interface/lib/quaqua.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Le genie/workspace/générateur d&apos;interface/lib/jcalendar-1.4.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container/Intra"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project default="create_run_jar" name="Create Runnable Jar for Project Interface à générer with Jar-in-Jar Loader">
+    <!--this file was created by Eclipse Runnable JAR Export Wizard-->
+    <!--ANT 1.7 is required                                        -->
+    <target name="create_run_jar">
+        <jar destfile="C:/Users/Nkuigwa djomo gabin/workspace/Interface à générer/generateur.jar">
+            <manifest>
+                <attribute name="Main-Class" value="org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader"/>
+                <attribute name="Rsrc-Main-Class" value="Dessin.Acceuil"/>
+                <attribute name="Class-Path" value="."/>
+                <attribute name="Rsrc-Class-Path" value="./ jcalendar-1.4.jar mysql-connector-java-5.1.37-bin.jar quaqua.jar"/>
+            </manifest>
+            <zipfileset src="jar-in-jar-loader.zip"/>
+            <fileset dir="C:/Users/Nkuigwa djomo gabin/workspace/Interface à générer/bin"/>
+            <zipfileset dir="F:\libraries" includes="jcalendar-1.4.jar"/>
+            <zipfileset dir="F:\libraries" includes="mysql-connector-java-5.1.37-bin.jar"/>
+            <zipfileset dir="F:\libraries" includes="quaqua.jar"/>
+        </jar>
+    </target>
+</project>

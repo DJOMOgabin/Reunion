@@ -1,0 +1,3 @@
+user: gabin
+password: 98109933
+max: 60
